@@ -64,7 +64,7 @@ module.exports = {
 
   menu: process.env.MENU || "v1", 
 
-  HANDLERS: process.env.PREFIX  || "/",
+  HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "3.0.0",
   caption : global.caption || "αѕтα-м∂ 2024" , 
